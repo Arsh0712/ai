@@ -7,14 +7,13 @@ import datetime
 
 # Config
 class SYS :
-    TOKEN = '' # Place Your Bot Token Here
-    PREFIX = '' # Choose A Prefix For Bot { Like => ! }
+    TOKEN = 'MTUxMDMwNTI4NTI4ODM2NjI2MA.GeCh2O.NJ0_fxJmisRraw86g_uXdGa3pYnUzDSZzmfqMQ' # Place Your Bot Token Here
+    PREFIX = '!' # Choose A Prefix For Bot { Like => ! }
 
 # Variables
 class VAR :
-    GUILD = 896126367903645717 # Guild ID
-    LOG = 944301795428147210 # Log Channel ID
-    CREATOR = "ArDaVaN81"
+    GUILD = 1167852560602902528 # Guild ID
+    CREATOR = "escapingdum"
 
 # Main Variables
 intents = discord.Intents.default()
@@ -62,7 +61,7 @@ async def inv(ctx, member: discord.Member = None):
     await ctx.message.delete()
 
     embed = discord.Embed(
-        title = "ɪɴᴠɪᴛᴇ ᴛʀᴀᴄᴋᴇʀ ᴮᵒᵗ",
+        title = "Arshu Tacker",
         description = f"\nᴜꜱᴇʀ : {user.mention}\n\nᴛᴏᴛᴀʟ ɪɴᴠɪᴛᴇꜱ ᴄᴏᴜɴᴛ : ``{total_invites} Users``",
         colour = 0x00FF91
     )
