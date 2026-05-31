@@ -66,7 +66,7 @@ async def inv(ctx, member: discord.Member = None):
         colour = 0x00FF91
     )
     embed._timestamp = datetime.datetime.utcnow()
-    embed.set_footer(text = "ɪɴᴠɪᴛᴇ ᴛʀᴀᴄᴋᴇʀ ʙʏ ᴀʀᴅᴀᴠᴀɴ | ")
+    embed.set_footer(text = "INVITE TRACKER BY ARSH | ")
     embed.set_author(name = "ʙʏ ꜱᴀᴛᴀɴ")
     
     # 3 Seconds Of Typing Status & Then Result
